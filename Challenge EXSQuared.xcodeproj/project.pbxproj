@@ -182,6 +182,7 @@
 					};
 					B658E50B2D539F1900A17F8E = {
 						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
 						TestTargetID = B658E4F12D539F1700A17F8E;
 					};
 				};
@@ -483,6 +484,7 @@
 		B658E51D2D539F1900A17F8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -490,6 +492,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Matias-Nicolas-Morales.Challenge-EXSQuaredUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Challenge EXSQuaredUITests/Challenge EXSQuaredUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Challenge EXSQuared";
@@ -499,6 +503,7 @@
 		B658E51E2D539F1900A17F8E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -506,6 +511,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Matias-Nicolas-Morales.Challenge-EXSQuaredUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Challenge EXSQuaredUITests/Challenge EXSQuaredUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Challenge EXSQuared";

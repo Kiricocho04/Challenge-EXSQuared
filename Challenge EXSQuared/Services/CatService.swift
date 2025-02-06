@@ -8,7 +8,7 @@
 import Foundation
 
 class CatService {
-    private let baseURL = "https://api.thecatapi.com/v1/images/search?limit=10"
+    private let baseURL = "https://api.thecatapi.com/v1/images/search?limit=10&breed_ids=beng&api_key=live_wKWj7kXwx9v4iKde9LYj8OXoTCvxqf0i1JAOcvFWQCLZbhqdnuDmFMKk1GF09W7x"
 
     func fetchCats(from url: String, completion: @escaping (Result<[CatModel], Error>) -> Void) {
         guard let url = URL(string: baseURL) else { return }

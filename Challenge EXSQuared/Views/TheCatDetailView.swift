@@ -36,12 +36,7 @@ struct TheCatDetailView: View {
                         
                         Text("⏳ Lifespan: \(breed.life_span) years")
                             .font(.subheadline)
-                        
-//                        if let wikipediaURL = breed.wikipedia_url {
-//                            Link("📖 Learn More", destination: URL(string: wikipediaURL)!)
-//                                .font(.headline)
-//                                .foregroundColor(.blue)
-//                        }
+                    
                     } else {
                         Text("No breed information available.")
                             .italic()

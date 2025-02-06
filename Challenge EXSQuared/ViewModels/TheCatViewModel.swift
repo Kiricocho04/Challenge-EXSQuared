@@ -18,6 +18,10 @@ class TheCatViewModel: ObservableObject {
     private var currentPage = 0
     private let limit = 10
 
+    init(service: CatService = CatService()){
+        self.service = service
+    }
+    
     func fetchCats() {
         guard !isLoading else { return }
 
